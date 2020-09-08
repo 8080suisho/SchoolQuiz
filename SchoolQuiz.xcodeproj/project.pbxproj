@@ -13,6 +13,8 @@
 		2CDBD57A2506B51F001F623F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBD5782506B51F001F623F /* Main.storyboard */; };
 		2CDBD57C2506B521001F623F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBD57B2506B521001F623F /* Assets.xcassets */; };
 		2CDBD57F2506B521001F623F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBD57D2506B521001F623F /* LaunchScreen.storyboard */; };
+		2CDBD587250724FA001F623F /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBD586250724FA001F623F /* QuizViewController.swift */; };
+		2CDBD58925072511001F623F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBD58825072511001F623F /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2CDBD57B2506B521001F623F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CDBD57E2506B521001F623F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CDBD5802506B521001F623F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDBD586250724FA001F623F /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		2CDBD58825072511001F623F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				2CDBD5722506B51F001F623F /* AppDelegate.swift */,
 				2CDBD5742506B51F001F623F /* SceneDelegate.swift */,
 				2CDBD5762506B51F001F623F /* ViewController.swift */,
+				2CDBD586250724FA001F623F /* QuizViewController.swift */,
+				2CDBD58825072511001F623F /* ResultViewController.swift */,
 				2CDBD5782506B51F001F623F /* Main.storyboard */,
 				2CDBD57B2506B521001F623F /* Assets.xcassets */,
 				2CDBD57D2506B521001F623F /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDBD58925072511001F623F /* ResultViewController.swift in Sources */,
 				2CDBD5772506B51F001F623F /* ViewController.swift in Sources */,
 				2CDBD5732506B51F001F623F /* AppDelegate.swift in Sources */,
 				2CDBD5752506B51F001F623F /* SceneDelegate.swift in Sources */,
+				2CDBD587250724FA001F623F /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
